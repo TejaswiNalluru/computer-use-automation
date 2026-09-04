@@ -1,6 +1,0 @@
-{"ts": "2026-08-20T23:51:40.431564+00:00", "kind": "start", "capability_id": "lookup_savings_balance", "params": {"member_id": "M-1001"}}
-{"ts": "2026-08-20T23:51:48.717197+00:00", "kind": "step_ok", "step_id": "s1", "action": "navigate", "detail": "http://127.0.0.1:3000/"}
-{"ts": "2026-08-20T23:51:48.846016+00:00", "kind": "step_ok", "step_id": "s2", "action": "fill", "detail": "M-1001"}
-{"ts": "2026-08-20T23:51:48.923863+00:00", "kind": "step_ok", "step_id": "s3", "action": "click", "detail": "clicked"}
-{"ts": "2026-08-20T23:51:49.020068+00:00", "kind": "step_ok", "step_id": "s4", "action": "extract", "detail": "410.22"}
-{"ts": "2026-08-20T23:51:49.050074+00:00", "kind": "step_ok", "step_id": "s5", "action": "extract", "detail": "Ada Member"}
