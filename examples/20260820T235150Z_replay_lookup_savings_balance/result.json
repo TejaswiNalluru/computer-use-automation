@@ -1,0 +1,41 @@
+{
+  "status": "business_outcome",
+  "capability_id": "lookup_savings_balance",
+  "mode": "replay",
+  "outputs": {},
+  "outcome_id": "not_found",
+  "message": "No member with that ID",
+  "steps": [
+    {
+      "step_id": "s1",
+      "action": "navigate",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s2",
+      "action": "fill",
+      "ok": true,
+      "detail": "M-9999",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s3",
+      "action": "click",
+      "ok": true,
+      "detail": "clicked",
+      "url": "http://127.0.0.1:3000/members/M-9999",
+      "screenshot": null,
+      "observed_text_snippet": null
+    }
+  ],
+  "escalation_id": null,
+  "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260820T235150Z_replay_lookup_savings_balance",
+  "started_at": "2026-08-20T23:51:59.547140+00:00",
+  "finished_at": "2026-08-20T23:51:59.547087+00:00"
+}
