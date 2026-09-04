@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "capability_id": "lookup_savings_balance",
+  "mode": "replay",
+  "outputs": {
+    "savings_balance": "410.22",
+    "member_name": "Ada Member"
+  },
+  "outcome_id": null,
+  "message": "Replay succeeded",
+  "steps": [
+    {
+      "step_id": "s1",
+      "action": "navigate",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s2",
+      "action": "wait",
+      "ok": true,
+      "detail": "Member lookup",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s3",
+      "action": "dismiss_dialog",
+      "ok": true,
+      "detail": "False",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s3b",
+      "action": "confirm_dialog",
+      "ok": true,
+      "detail": "False",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s4",
+      "action": "fill",
+      "ok": true,
+      "detail": "M-1001",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s5",
+      "action": "click",
+      "ok": true,
+      "detail": "clicked",
+      "url": "http://127.0.0.1:3000/members/M-1001",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s6",
+      "action": "extract",
+      "ok": true,
+      "detail": "410.22",
+      "url": "http://127.0.0.1:3000/members/M-1001",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s7",
+      "action": "extract",
+      "ok": true,
+      "detail": "Ada Member",
+      "url": "http://127.0.0.1:3000/members/M-1001",
+      "screenshot": null,
+      "observed_text_snippet": null
+    }
+  ],
+  "escalation_id": null,
+  "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160650Z_replay_lookup_savings_balance",
+  "started_at": "2026-09-04T16:06:52.245056+00:00",
+  "finished_at": "2026-09-04T16:06:52.245006+00:00"
+}

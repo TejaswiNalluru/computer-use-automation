@@ -1,0 +1,68 @@
+{
+  "status": "business_outcome",
+  "capability_id": "lookup_savings_balance",
+  "mode": "replay",
+  "outputs": {},
+  "outcome_id": "not_found",
+  "message": "No member with that ID",
+  "steps": [
+    {
+      "step_id": "s1",
+      "action": "navigate",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s2",
+      "action": "wait",
+      "ok": true,
+      "detail": "Member lookup",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s3",
+      "action": "dismiss_dialog",
+      "ok": true,
+      "detail": "False",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s3b",
+      "action": "confirm_dialog",
+      "ok": true,
+      "detail": "False",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s4",
+      "action": "fill",
+      "ok": true,
+      "detail": "M-9999",
+      "url": "http://127.0.0.1:3000/",
+      "screenshot": null,
+      "observed_text_snippet": null
+    },
+    {
+      "step_id": "s5",
+      "action": "click",
+      "ok": true,
+      "detail": "clicked",
+      "url": "http://127.0.0.1:3000/members/M-9999",
+      "screenshot": null,
+      "observed_text_snippet": null
+    }
+  ],
+  "escalation_id": null,
+  "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160652Z_replay_lookup_savings_balance",
+  "started_at": "2026-09-04T16:06:53.786950+00:00",
+  "finished_at": "2026-09-04T16:06:53.786903+00:00"
+}

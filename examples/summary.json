@@ -1,0 +1,98 @@
+[
+  {
+    "name": "discover",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160625Z_discover",
+    "ok": true,
+    "llm_provider": "openai"
+  },
+  {
+    "name": "replay_success",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160650Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_not_found",
+    "status": "business_outcome",
+    "outcome_id": "not_found",
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160652Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_invalid_id",
+    "status": "business_outcome",
+    "outcome_id": "invalid_member_id",
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160653Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_dialog",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160655Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_slow_load",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160656Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "policy_close_path",
+    "status": "blocked_by_policy",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160658Z_replay_navigate_close_account",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "checkpoint_fail",
+    "status": "hard_failure",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160659Z_replay_lookup_broken_checkpoint",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "handoff_resume",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160700Z_replay_lookup_without_dismiss",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_permission_denied",
+    "status": "business_outcome",
+    "outcome_id": "permission_denied",
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160712Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_session_expired",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160713Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  },
+  {
+    "name": "replay_confirm",
+    "status": "success",
+    "outcome_id": null,
+    "evidence_dir": "C:\\Users\\tejas\\Projects\\computer-use-automation\\evidence\\20260904T160715Z_replay_lookup_savings_balance",
+    "ok": true,
+    "llm_provider": null
+  }
+]
