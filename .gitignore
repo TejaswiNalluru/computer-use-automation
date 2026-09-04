@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+handoff/*.json
+handoff/*_OPERATOR.md
+evidence/*
+!evidence/.gitkeep
+!evidence/examples/
+!evidence/examples/**
+
+.DS_Store
+playwright-report/
+test-results/
