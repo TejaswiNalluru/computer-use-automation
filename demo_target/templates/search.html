@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Member lookup{% endblock %}
+{% block body %}
+<table class="panel">
+  <tr>
+    <th>Member lookup</th>
+  </tr>
+  <tr>
+    <td>
+      <p class="hint">Enter an ID like M-1001</p>
+      {% if error == "invalid" %}
+      <p class="error">Invalid member ID</p>
+      {% endif %}
+      <form action="/search{% if request.url.query %}?{{ request.url.query }}{% endif %}" method="post">
+        <table class="fields">
+          <tr>
+            <td>Member ID</td>
+            <td>
+              <input type="text" name="member_id" value="{{ member_id }}" autocomplete="off" />
+            </td>
+          </tr>
+        </table>
+        <p>
+          <input type="submit" value="Search" />
+        </p>
+      </form>
+    </td>
+  </tr>
+</table>
+{% endblock %}

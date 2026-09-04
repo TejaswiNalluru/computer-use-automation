@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Member detail{% endblock %}
+{% block body %}
+<table class="panel">
+  <tr>
+    <th>Member detail</th>
+  </tr>
+  <tr>
+    <td>
+      <table class="fields">
+        <tr>
+          <td>Member ID</td>
+          <td>{{ member_id }}</td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>{{ name }}</td>
+        </tr>
+        <tr>
+          <td>Savings balance</td>
+          <td>{{ savings_balance }}</td>
+        </tr>
+      </table>
+      <p>
+        <a class="button" href="/{% if request.url.query %}?{{ request.url.query }}{% endif %}">Back to search</a>
+        <a class="button danger" href="/members/{{ member_id }}/close{% if request.url.query %}?{{ request.url.query }}{% endif %}">Close account</a>
+      </p>
+    </td>
+  </tr>
+</table>
+{% endblock %}

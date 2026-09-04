@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background: #c0c0c0;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+table.shell {
+  width: 100%;
+  border-collapse: collapse;
+  background: #000080;
+  color: #fff;
+}
+
+table.shell td {
+  padding: 8px 12px;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+table.panel {
+  margin: 24px auto;
+  width: 640px;
+  border: 2px solid #808080;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+table.panel th {
+  background: #d4d0c8;
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #808080;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+table.panel td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table.fields {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.fields td {
+  padding: 6px 8px;
+  border: 1px solid #a0a0a0;
+}
+
+input[type="text"] {
+  width: 220px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+input[type="submit"],
+a.button {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 13px;
+  padding: 4px 12px;
+  background: #d4d0c8;
+  border: 2px outset #fff;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+input[type="submit"].danger,
+a.button.danger {
+  background: #c0c0c0;
+  color: #800000;
+}
+
+.error {
+  color: #800000;
+  font-weight: bold;
+}
+
+.hint {
+  color: #404040;
+  font-size: 13px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.overlay table {
+  margin: 120px auto;
+  width: 420px;
+  background: #d4d0c8;
+  border: 2px outset #fff;
+}
+
+.overlay td {
+  padding: 12px;
+  font-family: Tahoma, Verdana, sans-serif;
+}

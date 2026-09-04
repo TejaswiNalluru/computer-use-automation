@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Demo Core{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <table class="shell">
+      <tr>
+        <td>Demo Core &nbsp;|&nbsp; Member Servicing Console</td>
+        <td style="text-align: right">Institution: LOCAL-01</td>
+      </tr>
+    </table>
+
+    {% block body %}{% endblock %}
+
+    {% if dialog %}
+    <div class="overlay">
+      <table>
+        <tr>
+          <td>
+            <strong>System notice</strong>
+            <p>Scheduled maintenance window starts in 15 minutes.</p>
+            <p><a class="button" href="{{ dismiss_url }}">Dismiss</a></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    {% endif %}
+
+    {% if confirm %}
+    <div class="overlay">
+      <table>
+        <tr>
+          <td>
+            <strong>Confirm lookup</strong>
+            <p>Proceed with member lookup?</p>
+            <p><a class="button" href="{{ confirm_url }}">Confirm</a></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    {% endif %}
+  </body>
+</html>

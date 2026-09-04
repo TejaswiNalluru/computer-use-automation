@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Close account{% endblock %}
+{% block body %}
+<table class="panel">
+  <tr>
+    <th>Close account</th>
+  </tr>
+  <tr>
+    <td>
+      <p class="error">This action cannot be undone.</p>
+      <p>Close account for {{ name }} ({{ member_id }})?</p>
+      <p>
+        <a class="button" href="/members/{{ member_id }}">Cancel</a>
+        <a class="button danger" href="/members/{{ member_id }}">Confirm close</a>
+      </p>
+    </td>
+  </tr>
+</table>
+{% endblock %}

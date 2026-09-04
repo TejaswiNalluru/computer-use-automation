@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Member not found{% endblock %}
+{% block body %}
+<table class="panel">
+  <tr>
+    <th>Member not found</th>
+  </tr>
+  <tr>
+    <td>
+      <p class="error">No member with that ID</p>
+      <table class="fields">
+        <tr>
+          <td>Member ID</td>
+          <td>{{ member_id }}</td>
+        </tr>
+      </table>
+      <p><a class="button" href="/{% if request.url.query %}?{{ request.url.query }}{% endif %}">Back to search</a></p>
+    </td>
+  </tr>
+</table>
+{% endblock %}
