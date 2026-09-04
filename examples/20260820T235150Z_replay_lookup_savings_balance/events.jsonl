@@ -1,0 +1,4 @@
+{"ts": "2026-08-20T23:51:50.284787+00:00", "kind": "start", "capability_id": "lookup_savings_balance", "params": {"member_id": "M-9999"}}
+{"ts": "2026-08-20T23:51:59.303733+00:00", "kind": "step_ok", "step_id": "s1", "action": "navigate", "detail": "http://127.0.0.1:3000/"}
+{"ts": "2026-08-20T23:51:59.422250+00:00", "kind": "step_ok", "step_id": "s2", "action": "fill", "detail": "M-9999"}
+{"ts": "2026-08-20T23:51:59.500357+00:00", "kind": "step_ok", "step_id": "s3", "action": "click", "detail": "clicked"}
