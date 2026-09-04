@@ -1,0 +1,42 @@
+# Safety policy for computer-use automation against demo_target.
+allowed_hosts:
+  - "127.0.0.1:3000"
+  - "localhost:3000"
+
+allowed_path_prefixes:
+  - "/"
+  - "/search"
+  - "/members/"
+  - "/static/"
+  - "/health"
+
+# Irreversible / high-risk routes — blocked for agent + replay.
+blocked_path_prefixes:
+  - "/members/*/close"
+
+allowed_actions:
+  - navigate
+  - click
+  - fill
+  - press
+  - extract
+  - wait
+  - assert
+  - dismiss_dialog
+  - confirm_dialog
+
+blocked_actions:
+  - close_account
+
+risky_text_patterns:
+  - "(?i)close account"
+  - "(?i)confirm close"
+  - "(?i)cannot be undone"
+
+# Fields never written to artifacts or evidence logs.
+sensitive_param_names:
+  - password
+  - token
+  - secret
+  - ssn
+  - credential
