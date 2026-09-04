@@ -1,9 +1,0 @@
-{"ts": "2026-09-04T16:06:56.642680+00:00", "kind": "start", "capability_id": "lookup_savings_balance", "params": {"member_id": "M-1001"}, "handoff_wait": false}
-{"ts": "2026-09-04T16:06:57.618116+00:00", "kind": "step_ok", "step_id": "s1", "action": "navigate", "detail": "http://127.0.0.1:3000/"}
-{"ts": "2026-09-04T16:06:57.724562+00:00", "kind": "step_ok", "step_id": "s2", "action": "wait", "detail": "Member lookup"}
-{"ts": "2026-09-04T16:06:57.752166+00:00", "kind": "step_ok", "step_id": "s3", "action": "dismiss_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:06:57.770749+00:00", "kind": "step_ok", "step_id": "s3b", "action": "confirm_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:06:57.814632+00:00", "kind": "step_ok", "step_id": "s4", "action": "fill", "detail": "M-1001"}
-{"ts": "2026-09-04T16:06:57.887687+00:00", "kind": "step_ok", "step_id": "s5", "action": "click", "detail": "clicked"}
-{"ts": "2026-09-04T16:06:57.944935+00:00", "kind": "step_ok", "step_id": "s6", "action": "extract", "detail": "410.22"}
-{"ts": "2026-09-04T16:06:57.963750+00:00", "kind": "step_ok", "step_id": "s7", "action": "extract", "detail": "Ada Member"}

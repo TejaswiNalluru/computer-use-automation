@@ -1,7 +1,0 @@
-{"ts": "2026-09-04T16:06:53.894994+00:00", "kind": "start", "capability_id": "lookup_savings_balance", "params": {"member_id": "abc"}, "handoff_wait": false}
-{"ts": "2026-09-04T16:06:54.818332+00:00", "kind": "step_ok", "step_id": "s1", "action": "navigate", "detail": "http://127.0.0.1:3000/"}
-{"ts": "2026-09-04T16:06:54.927997+00:00", "kind": "step_ok", "step_id": "s2", "action": "wait", "detail": "Member lookup"}
-{"ts": "2026-09-04T16:06:54.955813+00:00", "kind": "step_ok", "step_id": "s3", "action": "dismiss_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:06:54.976592+00:00", "kind": "step_ok", "step_id": "s3b", "action": "confirm_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:06:55.031174+00:00", "kind": "step_ok", "step_id": "s4", "action": "fill", "detail": "abc"}
-{"ts": "2026-09-04T16:06:55.105532+00:00", "kind": "step_ok", "step_id": "s5", "action": "click", "detail": "clicked"}

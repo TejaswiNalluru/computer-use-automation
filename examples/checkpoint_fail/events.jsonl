@@ -1,9 +1,0 @@
-{"ts": "2026-09-04T16:06:59.128039+00:00", "kind": "start", "capability_id": "lookup_broken_checkpoint", "params": {"member_id": "M-1001"}, "handoff_wait": false}
-{"ts": "2026-09-04T16:07:00.098669+00:00", "kind": "step_ok", "step_id": "s1", "action": "navigate", "detail": "http://127.0.0.1:3000/"}
-{"ts": "2026-09-04T16:07:00.210142+00:00", "kind": "step_ok", "step_id": "s2", "action": "wait", "detail": "Member lookup"}
-{"ts": "2026-09-04T16:07:00.240062+00:00", "kind": "step_ok", "step_id": "s3", "action": "dismiss_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:07:00.260884+00:00", "kind": "step_ok", "step_id": "s3b", "action": "confirm_dialog", "detail": "False"}
-{"ts": "2026-09-04T16:07:00.297796+00:00", "kind": "step_ok", "step_id": "s4", "action": "fill", "detail": "M-1001"}
-{"ts": "2026-09-04T16:07:00.381661+00:00", "kind": "step_ok", "step_id": "s5", "action": "click", "detail": "clicked"}
-{"ts": "2026-09-04T16:07:00.457363+00:00", "kind": "step_ok", "step_id": "s6", "action": "extract", "detail": "410.22"}
-{"ts": "2026-09-04T16:07:00.484156+00:00", "kind": "step_ok", "step_id": "s7", "action": "extract", "detail": "Ada Member"}
